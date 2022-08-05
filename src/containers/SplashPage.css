@@ -1,0 +1,45 @@
+html, body {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.splashBody {
+  height: 100vh;
+  width: 100vw;
+  max-height: 100%;
+  max-width: 100%;
+  background-image: url("../assets/wallpaper.jpg");
+  font-size: x-large;
+  color: #EAE2B7;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+}
+
+.bubble {
+  height: 50px;
+  width: 50px;
+  color: white;
+  border-radius: 70%;
+  align-items: center;
+  display: flex;
+  
+}
